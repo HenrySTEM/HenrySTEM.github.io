@@ -3,7 +3,7 @@ export default function Home() {
         <div className="Homepage">
             <h1>About</h1>
             <p> 
-                I am currently an eighth grader at Detroit Country Day school. 
+                I am currently an 9th grader at Detroit Country Day school. 
             </p>
             <p>
                 I enjoy doing competition math and competative programming. I am also interested in theoretical math and computer vision. I post very frequently 
@@ -14,7 +14,6 @@ export default function Home() {
             </p>
 
 
-            
         </div>
     )
 }

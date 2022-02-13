@@ -4,16 +4,15 @@ export default function Projects(){
             <h1>Achievements</h1>
             <h2>Math Experience</h2>
             <p>
-                I have a lot of experience with competition math. I am a two-time national Mathcounts qualifier (6th and 8th grade, as 7th grade Mathcounts was 
-                canceled due to COVID-19). I am also a USAJMO qualifier and a three-time AIME qualifier. I have also received the distinguished honor roll (top 1%)
-                for the AMC 10.
+                I have a lot of experience with competition math. I am a <b>two-time national Mathcounts qualifier</b>( 6th and 8th grade, as 7th grade Mathcounts was 
+                canceled due to COVID-19). I am also a <b>USAJMO qualifier and a three-time AIME qualifier</b>. I have also received the <b>distinguished honor roll (top 1%)
+                for the AMC 10</b>.
             </p>
 
             <h2>Programming Experience</h2>
             <p>
-                I have done competative programming for about a year. I am a specialist on <a href="https://codeforces.com/profile/JiangSTEM">CodeForces</a>, and 
-                also have an account on <a href="https://leetcode.com/HenrySTEM/">LeetCode</a>. However, as of now, I am not particularly active in the competative 
-                programming community.
+                I have done competative programming for about a year. I am currently at the <b>gold rank in USACO</b>. I am a specialist on <a href="https://codeforces.com/profile/JiangSTEM">CodeForces</a>, and 
+                also have an account on <a href="https://leetcode.com/HenrySTEM/">LeetCode</a>.
             </p>
 
             <h2>Miscellaneous Achivements</h2>

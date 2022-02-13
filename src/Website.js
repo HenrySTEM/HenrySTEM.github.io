@@ -4,7 +4,7 @@ import {GrMail} from 'react-icons/gr'
 // eslint-disable-next-line
 import {SiGithub,SiCodeforces,SiLeetcode} from 'react-icons/si'
 import {GiCube} from 'react-icons/gi'
-import {BrowserRouter as Router,Route,Link,Switch,useLocation} from "react-router-dom"
+import {HashRouter as Router,Route,Link,Switch,useLocation} from "react-router-dom"
 
 import Home from './Pages/Homepage';
 import Projects from './Pages/Achievements';
@@ -54,11 +54,11 @@ function TopBar() {
         <div className="Bar">
             <div className="BarLeft">
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/" style={{color: (path === "/" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Henry Jiang</Link>
+                <Link className="Pagelink" to="/" style={{color: (path === "/" ? "Black" : "rgb(98, 195, 255)")}}>Henry Jiang</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Achievements</Link>
+                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "Black" : "rgb(98, 195, 255)")}}>Achievements</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Puzzles</Link>
+                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "Black" : "rgb(98, 195, 255)")}}>Puzzles</Link>
             </div>
             <div className="BarRight">
                 <a href="mailto: jiangstem@gmail.com" target="_blank"> <div className = "BarLink"> <GrMail/> Email </div> </a>
